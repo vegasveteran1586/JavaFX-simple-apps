@@ -17,7 +17,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 
-public class Javafx extends Application
+public class ColorApp extends Application
 {
 	private final static int DEFAULT_WIDTH  = 250;
 	private final static int DEFAULT_HEIGHT = 300;
