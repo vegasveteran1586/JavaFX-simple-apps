@@ -41,11 +41,11 @@ public class Javafx extends Application
 		Group root = new Group();
 		Scene scene = new Scene(root, DEFAULT_WIDTH, DEFAULT_HEIGHT, BG_COLOR);
 		
-		textRed = createText("Red: 255"  , 160, 40 );
-		textGreen = createText("Green: 255", 160, 60 );
-		textBlue = createText("Red: 255"  , 160, 80 );
+		textRed = createText("Red: 255", 160, 40);
+		textGreen = createText("Green: 255", 160, 60);
+		textBlue = createText("Red: 255", 160, 80);
 
-		textHex   = createText("Hex: " + hexColorValue, 20 , 240);
+		textHex = createText("Hex: " + hexColorValue, 20 , 240);
 		
 		sliderRed = createSlider(10, 30);
 		sliderGreen = createSlider(10, 50);
@@ -116,9 +116,9 @@ public class Javafx extends Application
 					(hexColorValue = "#" + String.format
 					 	(
 							"%02x%02x%02x",
-                            (int)sliderRed.getValue(), 
+              (int)sliderRed.getValue(), 
 							(int)sliderGreen.getValue(),
-                            (int)sliderBlue.getValue()
+              (int)sliderBlue.getValue()
 						)
 					)
 				);
